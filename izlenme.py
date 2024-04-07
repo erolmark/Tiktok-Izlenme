@@ -239,18 +239,18 @@ class Zefoy:
             os.system('clear')
             
             print("\x1b[1;33m—" * 60)
-            print(f"""\x1b[38;5;117m1\x1b[38;5;231m - Followers | \x1b[1;31mComing Soon
-\x1b[38;5;117m2\x1b[38;5;231m - Hearts | \x1b[1;31mComing Soon
-\x1b[38;5;117m3 \x1b[38;5;231m- Comments Hearts | \x1b[1;32m2 weeks ago updated
-\x1b[38;5;117m4 \x1b[38;5;231m- Views | \x1b[1;32m2 weeks ago updated
-\x1b[38;5;117m5\x1b[38;5;231m - Shares | \x1b[1;32m2 weeks ago updated
-\x1b[38;5;117m6 \x1b[38;5;231m- Favorites | \x1b[1;32m weeks ago updated
-\x1b[38;5;117m7 \x1b[38;5;231m- live-stream | \x1b[1;31mComing Soon""")
+            print(f"""\x1b[38;5;117m1\x1b[38;5;231m - Takipçi | \x1b[1;31mYakında
+\x1b[38;5;117m2\x1b[38;5;231m - Beğeni | \x1b[1;31mYakında
+\x1b[38;5;117m3 \x1b[38;5;231m - Yoruma Beğeni | \x1b[1;32m2 Hafta uzatıldı
+\x1b[38;5;117m4 \x1b[38;5;231m- İzlenme | \x1b[1;32m2 Hafta uzatıldı 
+\x1b[38;5;117m5\x1b[38;5;231m - Paylaşma | \x1b[1;32m2 Hafta uzatıldı 
+\x1b[38;5;117m6 \x1b[38;5;231m- Favari Ekleme | \x1b[1;3 2 Hafta Uzatıldı
+\x1b[38;5;117m7 \x1b[38;5;231m- Canlı Yayın | \x1b[1;31mÇok Yakında""")
             print("\x1b[1;33m—" * 60)
-            url1=input("~ link Video: ")
+            url1=input("~ Video Linki: ")
             self.url=url1
             print("—" * 60)
-            print(f"- Choose the service: ", end=' ')
+            print(f"- Servis Seçin: ", end=' ')
             
             service_id = input()
             if service_id.isdigit():
@@ -275,7 +275,7 @@ class Zefoy:
             vang = "\033[1;33m"
             tim = "\033[1;35m"
             try:
-                if 'Service is currently not working, try again later' in str(self.use_service()):
+                if 'Servis Şuan Kullanılmiyor Sonra Deneyin' in str(self.use_service()):
                     print(f'{do}[\033[1;33mThe service is currently unavailable, please try again later.')
                     time.sleep(5)
             except Exception as e:
