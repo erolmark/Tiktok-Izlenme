@@ -13,3 +13,7 @@ cd Tiktok-Izlenme
 python izlenme.py
 ```
 Captcha Üzün sürüyor bekleyin tool kurulur.
+# Hatalar
+Eğer Captchada durup bad net derse ```ctrl+c``` Yapınız 
+Ardından python ```izlenme.py``` Yazarak Toolu çalıştırın 
+Yaklaşık 5 Saniye bekleyin ardından tool açılır 
