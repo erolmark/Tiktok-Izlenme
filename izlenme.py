@@ -1,4 +1,16 @@
 import os
+import requests 
+
+rez=requests.get("https://justpaste.it/ffx6d").text
+key=rez.split('<p>')[1]
+key=key.split('</p>')[0]
+gir=input("Key Gir:  ")
+
+if (gir==key):
+ print("Doğru Key Tool açılıyor")
+else:
+ print("Yanlis Key")
+ 
 try:
     import requests,colorama,prettytable,webbrowser
 except:
