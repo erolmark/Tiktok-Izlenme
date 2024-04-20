@@ -1,7 +1,7 @@
 import os
 import requests 
 
-rez=requests.get("https://justpaste.it/ffx6d").text
+rez=requests.get("https://justpaste.it/5zqz2").text
 key=rez.split('<p>')[1]
 key=key.split('</p>')[0]
 gir=input("Key Gir:  ")
