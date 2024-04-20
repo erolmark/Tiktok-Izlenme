@@ -241,9 +241,9 @@ class Zefoy:
             
             print("\x1b[1;33m—" * 60
             )
-            print('İnstagram: Mateus_v33')
+            print('İnstagram: veraildez_v33')
             print("İnstagram: Medusa_v33")
-            print("bu tool tiktok izlenme aracidir made by zindan")
+            print("https://discord.com/invite/4BBUFmCP")
             print("Erol Ve Batu sunar.")
             print("\x1b[1;33m—" * 60)
             time.sleep(5)
